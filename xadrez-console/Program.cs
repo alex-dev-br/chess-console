@@ -9,5 +9,8 @@ internal class Program
 
         Console.WriteLine("Position: " + P);
         Console.WriteLine();
+
+        Board board = new Board(8, 8);
+        Console.WriteLine();
     }
 }
